@@ -17,13 +17,13 @@ use yii\web\AssetBundle;
  */
 class Select2MaximizeAsset extends AssetBundle
 {
-    public $sourcePath = '@conquer/select2/assets';
+    public $sourcePath = '@buibr/select2/assets';
     
     public $js=[
         'maximize-select2-height.min.js',
     ];
     
     public $depends= [
-        'conquer\select2\Select2Asset',
+        'buibr\select2\Select2Asset',
     ];
 }
