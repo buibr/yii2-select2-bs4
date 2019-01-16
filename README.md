@@ -13,12 +13,12 @@ The preferred way to install this extension is through [composer](http://getcomp
 To install, either run
 
 ```
-$ php composer.phar require conquer/select2 "*"
+$ php composer.phar require buibr/select2 "*"
 ```
 or add
 
 ```
-"conquer/select2": "*"
+"buibr/select2": "*"
 ```
 
 to the ```require``` section of your `composer.json` file.
@@ -29,7 +29,7 @@ Basic usage:
 
 ```php
 // Form edit view
-use conquer\select2\Select2Widget;
+use buibr\select2\Select2Widget;
 use yii\helpers\ArrayHelper;
 
 $form->field($model, 'attribute')->widget(
@@ -44,7 +44,7 @@ Ajax:
 
 ```php
 
-use conquer\select2\Select2Action;
+use buibr\select2\Select2Action;
 ...
 
 class SiteController extends Controller
@@ -138,4 +138,4 @@ Initialization of multiple selection in case of using ajax and custom templates.
 
 ## License
 
-**conquer/select2** is released under the MIT License. See the bundled `LICENSE` for details.
+**buibr/select2** is released under the MIT License. See the bundled `LICENSE` for details.

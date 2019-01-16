@@ -1,11 +1,12 @@
 {
-  "name": "conquer/select2",
-  "description": "Yii2 Select2 widget",
+  "name": "buibr/yii2-select2-bs4",
+  "description": "Yii2 Select2 widget for bootstrap 4",
   "keywords": [
     "yii2",
     "extension",
     "widget",
-    "select2"
+    "select2",
+    "bootstrap4"
   ],
   "homepage": "https://github.com/borodulin/yii2-select2",
   "type": "yii2-extension",
@@ -18,6 +19,11 @@
     {
       "name": "Andrey Borodulin",
       "email": "borodulin@gmail.com"
+    },
+    {
+      "name": "Burhan Ibrahimi",
+      "email": "burhan@wflux.pro",
+      "homepage": "http://www.wflux.pro/"
     }
   ],
   "extra": {
@@ -31,13 +37,14 @@
   "require": {
     "php": ">=5.4.0",
     "yiisoft/yii2": ">=2.0.6",
+    "yiisoft/yii2-bootstrap4": "^1.0@dev",
     "conquer/helpers": ">=2.0.7",
     "bower-asset/select2": ">=4.0.0",
     "bower-asset/select2-bootstrap-theme": "*"
   },
   "autoload": {
     "psr-4": {
-      "conquer\\select2\\": ""
+      "buibr\\select2\\": ""
     }
   }
 }
