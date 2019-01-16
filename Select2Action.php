@@ -5,7 +5,7 @@
  * @license https://github.com/borodulin/yii2-select2/blob/master/LICENSE
  */
 
-namespace conquer\select2;
+namespace buibr\select2;
 
 use yii\base\Action;
 use yii\web\Response;
@@ -13,7 +13,7 @@ use yii\base\InvalidConfigException;
 
 /**
  * Class Select2Action
- * @package conquer\select2
+ * @package buibr\select2
  * @author Andrey Borodulin
  */
 class Select2Action extends Action

@@ -5,13 +5,13 @@
  * @license https://github.com/borodulin/yii2-select2/blob/master/LICENSE
  */
 
-namespace conquer\select2;
+namespace buibr\select2;
 
 use yii\web\AssetBundle;
 
 /**
  * Class Select2MaximizeAsset
- * @package conquer\select2
+ * @package buibr\select2
  * @link https://github.com/panorama-ed/maximize-select2-height
  * @author Andrey Borodulin
  */
