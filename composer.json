@@ -26,20 +26,20 @@
       "homepage": "http://www.wflux.pro/"
     }
   ],
-  "extra": {
-    "branch-alias": {
-      "dev-master": "1.7.x-dev",
-      "dev-release": "1.8.x-dev"
-    }
-  },
-  "minimum-stability": "dev",
-  "prefer-stable": true,
   "require": {
     "php": ">=5.4.0",
     "yiisoft/yii2": ">=2.0.6",
     "conquer/helpers": ">=2.0.7",
     "bower-asset/select2": ">=4.0.0",
     "bower-asset/select2-bootstrap-theme-dist": "~0.1.0-beta.10"
+  },
+  "scripts": {
+    "post-install-cmd": [
+      "bower install"
+    ],
+    "post-update-cmd": [
+      "bower install"
+    ]
   },
   "autoload": {
     "psr-4": {
