@@ -32,14 +32,6 @@
     "conquer/helpers": ">=2.0.7",
     "bower-asset/select2": ">=4.0.0"
   },
-  "scripts": {
-    "post-install-cmd": [
-      "bower install"
-    ],
-    "post-update-cmd": [
-      "bower install"
-    ]
-  },
   "autoload": {
     "psr-4": {
       "buibr\\select2\\": ""
