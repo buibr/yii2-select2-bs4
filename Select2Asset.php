@@ -18,7 +18,7 @@ use yii\web\AssetBundle;
 class Select2Asset extends AssetBundle
 {
     // public $sourcePath = '@bower/select2/dist';
-    public $sourcePath = '@bower-asset/select2/dist';
+    public $sourcePath = '@bower/select2/dist';
 
     public $css = [
         'css/select2.min.css',
